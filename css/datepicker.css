@@ -1,0 +1,82 @@
+/**
+ * 清除边距
+ */
+div,body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/**
+ * 头部样式
+ */
+.datepicker{
+	/* position */
+	position: absolute;
+	top: 66px;
+	left: 30px;
+	display: none;
+	/* box */
+	width: 280px;
+	border: 1px solid rgba(51,136,136,.3);
+	box-shadow: 0px 0px 2px 2px #ccc;
+	background: #eaeeee;
+}
+.datepicker .datepicker-header{
+	/* box */
+	height: 33px;
+	padding: 5px 10px;
+	border-bottom: 1px solid rgba(51,136,136,.2);
+	/* content */
+	text-align: center;	
+}
+.datepicker .datepicker-header .datepicker-month{
+	font: 600 14px/33px '微软雅黑';
+	color: #388;
+}
+.datepicker .datepicker-header .datepicker-btn{
+	font: 16px/33px serif;
+	color: #388;
+	cursor: pointer;
+	font-size: 20px;
+}
+.datepicker .datepicker-header .datepicker-btn-prev{
+	float: left;
+}
+.datepicker .datepicker-header .datepicker-btn-next{
+	float: right;
+}
+
+/**
+ * 内容样式
+ */
+.datepicker .datepicker-content{
+	background: #fff;
+}
+.datepicker .datepicker-content .datepicker-calender{
+	width: 100%;
+	border-collapse: collapse;
+}
+.datepicker .datepicker-calender th{
+	height: 30px;
+	font-size: 14px;
+	color: #388;
+}
+.datepicker .datepicker-calender td{
+	height: 28px;
+	border: 1px solid rgba(51,136,136,.1);
+	font-size: 13px;
+	color: #155;
+	text-align: center;
+	cursor: pointer;
+}
+.datepicker .datepicker-calender td:hover{
+	background: rgba(51,136,136,.3);
+}
+.datepicker .datepicker-calender .false {
+	color: rgba(51,136,136,.4);
+}
+.datepicker .datepicker-calender .isToday{
+	background: rgba(51,136,136,.2);
+}

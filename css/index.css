@@ -1,0 +1,32 @@
+/**
+ * datepicker css
+ */
+.datepicker-input-text{
+	margin-top: 80px;
+	margin-left: 100px;
+
+	width: 260px;
+	height: 25px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline-style: none;
+	font: 16px/30px consolas;
+	color: #388;
+}
+.datepicker-input-text:focus{
+	border: 1px solid #6aa;
+}
+.datepicker-input-reset{
+	width: 50px;
+	height: 36px;
+	outline-style: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+	color: #666;
+}
+.datepicker-input-reset:active{
+	border: 1px solid #6aa;
+	color: #6aa;
+}
