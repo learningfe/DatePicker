@@ -89,7 +89,8 @@
 			var now = new Date();
 			var today = now.getDate();
 			var toMonth = now.getMonth();
-			if (date == today && month == toMonth + 1) {
+      var toYear = now.getFullYear();
+			if (date == today && month == toMonth + 1 && year === toYear) {
 				isToday = 'isToday';
 			} else {
 				isToday = 'isNotToday';
