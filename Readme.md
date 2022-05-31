@@ -1,1 +1,1 @@
-[Git pages link](https://husky520.github.io/DatePicker/)
+[Git pages link](https://learningfe.github.io/DatePicker/)
